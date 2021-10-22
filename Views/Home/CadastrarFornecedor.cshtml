@@ -1,38 +1,30 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
+﻿
 @{
     ViewData["Title"] = "Cadastrar Fornecedor";
 }
 
 
-<body>
-    <div class="text-left">
-        <h3 class="display-6">Cadastrar Fornecedor</h3>
+<div class="bg-success container-fluid p-3 bg-primary text-white text-center">
+    <h1>Loja de Sapatos - Zerg</h1>
+    <p>Cadastre um fonecedor</p>
+</div>
 
-        <form>
-            <div class="form-group">
-                <label for="input nome">Nome </label>
-                <input type="text" class="form-control" id="InputNome" aria-describedby="emailHelp" placeholder="Digite seu nome">
+<div class="text-left">
+    <p>
+        <div class="form-group">
+            <label for="input nome">Nome </label>
+            <input type="text" class="form-control" id="InputNome" aria-describedby="emailHelp" placeholder="Digite seu nome">
 
-            </div>
-            <div class="form-group">
-                <label for="InputCNPJ">CNPJ</label>
-                <input type="number" class="form-control" id="InputCNPJ" placeholder="Digite seu cnpj">
-            </div>
+        </div>
+        <div class="form-group">
+            <label for="InputCNPJ">CNPJ</label>
+            <input type="number" class="form-control" id="InputCNPJ" placeholder="Digite seu cnpj">
+        </div>
 
-            <div class="form-group">
-                <label for="InputEndereco">Endereço</label>
-                <input type="text" class="form-control" id="InputEndereco" placeholder="Digite seu endereço">
-            </div>
+        <div class="form-group">
+            <label for="InputEndereco">Endereço</label>
+            <input type="text" class="form-control" id="InputEndereco" placeholder="Digite seu endereço">
+        </div>
 
-            <button type="button" class="btn btn-primary">Cadastrar</button>
-        </form>
-
-    </div>
-
-</body>
-</html>
+        <button type="button" class="btn btn-outline-success">Cadastrar</button>
+</div>
